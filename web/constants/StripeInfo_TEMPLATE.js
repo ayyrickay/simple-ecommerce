@@ -1,0 +1,3 @@
+export const STRIPE_API_KEY = 'pk_YOUR_PUBLISHABLE_STRIPE_KEY'
+export const API_URL = 'http://YOUR_SERVER_URL.DOMAIN'
+export const DOLLAR_CONVERSION = 100

@@ -1,0 +1,20 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-gap: 1em;
+	height: 96vh;
+	padding: 1em;
+	overflow-x: hidden;
+}
+
+.header {
+	grid-column: 1/13;
+	grid-row: 1/2;
+}
+
+.appTitle {
+  font-size: 3em;
+  line-height: 1.5;
+  text-align: center;
+}

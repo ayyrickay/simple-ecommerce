@@ -1,0 +1,36 @@
+.card {
+  flex: 1 100%;
+  margin: 1em;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 15em;
+	animation: pop-in;
+}
+
+.photo {
+  background: #eee;
+  position: relative;
+  overflow: hidden;
+	min-height: 10em;
+}
+
+.cardPhoto {
+  width: 100%;
+  /* object-fit: cover; */
+}
+
+.cardText {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+  padding: 1em 2em;
+}
+
+.cardButton {
+  background-color: #2980b9;
+  color: #fff;
+  width: 100%;
+  height: 3em;
+  border: none;
+  font-size: 1em;
+}

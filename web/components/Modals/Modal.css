@@ -1,0 +1,66 @@
+.modal {
+  height: 100vh;
+	width: 100vw;
+	z-index: 100;
+	position: fixed;
+	background-color: rgba(56, 56, 60, .6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 25em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	animation: pop-in;
+}
+
+.checkoutText {
+  font-weight: 700;
+  padding: 1.5em .75em;
+}
+
+.checkoutIcon {
+  composes: box from '../shared/icons.css';
+  padding: 3em;
+  width: 0;
+  margin: .5em auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.close {
+  composes: crossmark from '../shared/icons.css';
+  padding: .5em;
+  margin: .5em .5em 0 auto;
+}
+
+.send {
+  width: 100%;
+  background-color: #2980b9;
+  padding: .75em 0;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.5;
+  border: none;
+}
+
+.confirmation {
+  padding: 0 .5em;
+  line-height: 1.5;
+}
+
+.cardElement {
+  padding: 1em .5em;
+}
+
+.review {
+  padding-bottom: 2em;
+  text-align: center;
+}
